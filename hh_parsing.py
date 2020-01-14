@@ -62,7 +62,7 @@ def hh_parse(base_url, headers):
             })
 
         print(len(jobs))
-
+        print('test_message')
     else:
         print('ERROR or Done with code ' + str(request.status_code))
     return jobs
